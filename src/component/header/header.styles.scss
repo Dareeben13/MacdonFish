@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+.header-container{
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+
+    .brand-name a{
+        letter-spacing: 4.9px;
+        font-size: 1.9em;
+        font-weight: lighter;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: rgba(0, 0, 0, 0.87);
+    }
+
+    .options{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .option{
+            padding: 0  15px;
+            text-decoration: none;
+            color: rgba(0, 0, 0, 0.801);
+            font-size: 15px;
+            letter-spacing: 0.5px;
+            font-family: 'Roboto', sans-serif;
+            
+
+            i.icon{
+                font-size: 1.4em;
+            }
+        }
+
+       
+    }
+}
