@@ -3,6 +3,7 @@
 
     .gallery-footer{
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         margin-top: 80px;
@@ -12,6 +13,11 @@
             color: black;
             font-size: 2.5em;
             cursor: pointer;
+        }
+
+        .meta{
+            letter-spacing: 1.5px;
+            margin-top: 30px;
         }
     }
 }

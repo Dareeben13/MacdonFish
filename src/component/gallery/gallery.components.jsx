@@ -14,6 +14,9 @@ const Gallery = () => (
                 <i className="instagram icon" ></i>
 
             </a>
+            <div className="meta">
+                Check Out My Instagram Page for Updates
+            </div>
         </div>
     </div>
 )
