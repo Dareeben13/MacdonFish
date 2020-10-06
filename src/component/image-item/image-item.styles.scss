@@ -2,10 +2,11 @@
     display: flex;
     flex-wrap: wrap;
     cursor: zoom-in;
+    justify-content: center;
 
     img{
 
-        width: 32.4%;
+        width: 32%;
         margin: 3px;
     }
 }
