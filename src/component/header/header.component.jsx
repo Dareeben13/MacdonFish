@@ -15,6 +15,10 @@ const Header = () => (
                 Home
             </Link>
 
+            <Link to="/gallery" className="option">
+                Gallery
+            </Link>
+
             <Link to="/exhibitions" className="option">
                 Exhibitions
             </Link>
@@ -24,7 +28,7 @@ const Header = () => (
             </Link>
 
             <a href="https://www.instagram.com/therotimi_/" className="option" target="_blank" rel="noopener noreferrer">
-                <i class="instagram icon" ></i>
+                <i className="instagram icon" ></i>
 
             </a>
         </div>
